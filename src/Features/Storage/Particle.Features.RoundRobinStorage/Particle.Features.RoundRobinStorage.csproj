@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Particle.Core\Particle.Core.csproj" />
+    <ProjectReference Include="..\..\Particle.Features.Audits\Particle.Features.Audits.csproj" />
+  </ItemGroup>
+
+</Project>

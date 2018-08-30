@@ -1,0 +1,105 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2003
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle.Core", "Particle.Core\Particle.Core.csproj", "{949C3BB2-56DD-470D-82D2-31DE5394972D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle.Host", "Particle.Host\Particle.Host.csproj", "{8176F636-FF76-43C4-B0A6-8DFA8768C39A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle.Features.Audits", "Features\Particle.Features.Audits\Particle.Features.Audits.csproj", "{FAE317F3-8591-4E03-A173-19F30797D5B9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle.Features.InMemoryStorage", "Features\Storage\InMemory\Particle.Features.InMemoryStorage\Particle.Features.InMemoryStorage.csproj", "{EB79CE3C-829C-4454-894C-7FD0BA7FCA8D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle.Features.InMemoryStorage.Audits", "Features\Storage\InMemory\Particle.Features.InMemoryStorage.Audits\Particle.Features.InMemoryStorage.Audits.csproj", "{551EDBF0-0760-4434-ABD9-8263DF799F34}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Storage", "Storage", "{0F97D13C-7B2B-47C1-B7F5-8266F64E26D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InMemory", "InMemory", "{B040BBC5-C5EB-4FFA-BC1F-EB4C98A2ED04}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Features", "Features", "{E567C553-0985-4B74-ADD5-0ACBA56C241A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle.Features.RemoteStorage", "Features\Storage\Remote\Particle.Features.RemoteStorage\Particle.Features.RemoteStorage.csproj", "{BC699E2F-CBDE-4884-ABD2-49F2BE5F1636}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Remote", "Remote", "{857BFDFE-87A7-4599-A6A3-3FC134D85ED5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Particle.Features.InMemoryTransport", "Features\Transports\InMemory\Particle.Features.InMemoryTransport\Particle.Features.InMemoryTransport.csproj", "{468F272A-11C8-4363-8675-139661AF9012}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transports", "Transports", "{038FD5A1-597C-499B-A4CE-225B57BAA28C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Msmq", "Msmq", "{B81B0CF9-0726-48C7-9316-5F86AA1F9A82}"
+	ProjectSection(SolutionItems) = preProject
+		Features\Transports\Msmq\Readme.txt = Features\Transports\Msmq\Readme.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InMemory", "InMemory", "{EBB8EC53-C5B3-4A4C-879B-8B6BE9EC8D7F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Particle.Features.MessagesApi", "Features\Particle.Features.MessagesApi\Particle.Features.MessagesApi.csproj", "{38308567-C232-48F6-8E93-4761212E45A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Particle.Features.RoundRobinStorage", "Features\Storage\Particle.Features.RoundRobinStorage\Particle.Features.RoundRobinStorage.csproj", "{ADD02833-7C3B-4B94-8432-61CAE26339F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{949C3BB2-56DD-470D-82D2-31DE5394972D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{949C3BB2-56DD-470D-82D2-31DE5394972D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{949C3BB2-56DD-470D-82D2-31DE5394972D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{949C3BB2-56DD-470D-82D2-31DE5394972D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8176F636-FF76-43C4-B0A6-8DFA8768C39A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8176F636-FF76-43C4-B0A6-8DFA8768C39A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8176F636-FF76-43C4-B0A6-8DFA8768C39A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8176F636-FF76-43C4-B0A6-8DFA8768C39A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAE317F3-8591-4E03-A173-19F30797D5B9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAE317F3-8591-4E03-A173-19F30797D5B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAE317F3-8591-4E03-A173-19F30797D5B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAE317F3-8591-4E03-A173-19F30797D5B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB79CE3C-829C-4454-894C-7FD0BA7FCA8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB79CE3C-829C-4454-894C-7FD0BA7FCA8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB79CE3C-829C-4454-894C-7FD0BA7FCA8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB79CE3C-829C-4454-894C-7FD0BA7FCA8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{551EDBF0-0760-4434-ABD9-8263DF799F34}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{551EDBF0-0760-4434-ABD9-8263DF799F34}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{551EDBF0-0760-4434-ABD9-8263DF799F34}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{551EDBF0-0760-4434-ABD9-8263DF799F34}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC699E2F-CBDE-4884-ABD2-49F2BE5F1636}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC699E2F-CBDE-4884-ABD2-49F2BE5F1636}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC699E2F-CBDE-4884-ABD2-49F2BE5F1636}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC699E2F-CBDE-4884-ABD2-49F2BE5F1636}.Release|Any CPU.Build.0 = Release|Any CPU
+		{468F272A-11C8-4363-8675-139661AF9012}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{468F272A-11C8-4363-8675-139661AF9012}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{468F272A-11C8-4363-8675-139661AF9012}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{468F272A-11C8-4363-8675-139661AF9012}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38308567-C232-48F6-8E93-4761212E45A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38308567-C232-48F6-8E93-4761212E45A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38308567-C232-48F6-8E93-4761212E45A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38308567-C232-48F6-8E93-4761212E45A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD02833-7C3B-4B94-8432-61CAE26339F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD02833-7C3B-4B94-8432-61CAE26339F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD02833-7C3B-4B94-8432-61CAE26339F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD02833-7C3B-4B94-8432-61CAE26339F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FAE317F3-8591-4E03-A173-19F30797D5B9} = {E567C553-0985-4B74-ADD5-0ACBA56C241A}
+		{EB79CE3C-829C-4454-894C-7FD0BA7FCA8D} = {B040BBC5-C5EB-4FFA-BC1F-EB4C98A2ED04}
+		{551EDBF0-0760-4434-ABD9-8263DF799F34} = {B040BBC5-C5EB-4FFA-BC1F-EB4C98A2ED04}
+		{0F97D13C-7B2B-47C1-B7F5-8266F64E26D2} = {E567C553-0985-4B74-ADD5-0ACBA56C241A}
+		{B040BBC5-C5EB-4FFA-BC1F-EB4C98A2ED04} = {0F97D13C-7B2B-47C1-B7F5-8266F64E26D2}
+		{BC699E2F-CBDE-4884-ABD2-49F2BE5F1636} = {857BFDFE-87A7-4599-A6A3-3FC134D85ED5}
+		{857BFDFE-87A7-4599-A6A3-3FC134D85ED5} = {0F97D13C-7B2B-47C1-B7F5-8266F64E26D2}
+		{468F272A-11C8-4363-8675-139661AF9012} = {EBB8EC53-C5B3-4A4C-879B-8B6BE9EC8D7F}
+		{038FD5A1-597C-499B-A4CE-225B57BAA28C} = {E567C553-0985-4B74-ADD5-0ACBA56C241A}
+		{B81B0CF9-0726-48C7-9316-5F86AA1F9A82} = {038FD5A1-597C-499B-A4CE-225B57BAA28C}
+		{EBB8EC53-C5B3-4A4C-879B-8B6BE9EC8D7F} = {038FD5A1-597C-499B-A4CE-225B57BAA28C}
+		{38308567-C232-48F6-8E93-4761212E45A4} = {E567C553-0985-4B74-ADD5-0ACBA56C241A}
+		{ADD02833-7C3B-4B94-8432-61CAE26339F6} = {0F97D13C-7B2B-47C1-B7F5-8266F64E26D2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0AA69E6-F2A7-4DFA-AC28-72E927A8E8A1}
+	EndGlobalSection
+EndGlobal

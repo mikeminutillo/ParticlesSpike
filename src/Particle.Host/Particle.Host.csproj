@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <LangVersion>7.1</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Features\Particle.Features.MessagesApi\Particle.Features.MessagesApi.csproj" />
+    <ProjectReference Include="..\Features\Storage\Particle.Features.RoundRobinStorage\Particle.Features.RoundRobinStorage.csproj" />
+    <ProjectReference Include="..\Particle.Core\Particle.Core.csproj" />
+    <ProjectReference Include="..\Features\Particle.Features.Audits\Particle.Features.Audits.csproj" />
+    <ProjectReference Include="..\Features\Storage\InMemory\Particle.Features.InMemoryStorage.Audits\Particle.Features.InMemoryStorage.Audits.csproj" />
+    <ProjectReference Include="..\Features\Storage\InMemory\Particle.Features.InMemoryStorage\Particle.Features.InMemoryStorage.csproj" />
+    <ProjectReference Include="..\Features\Transports\InMemory\Particle.Features.InMemoryTransport\Particle.Features.InMemoryTransport.csproj" />
+    <ProjectReference Include="..\Features\Storage\Remote\Particle.Features.RemoteStorage\Particle.Features.RemoteStorage.csproj" />
+  </ItemGroup>
+
+</Project>

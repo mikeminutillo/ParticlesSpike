@@ -1,0 +1,1 @@
+This is where the MSMQ Transport Interface Type implementation would go
